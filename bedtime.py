@@ -20,14 +20,14 @@ def is_bedtime(time):
     # It is not bedtime
     return False
 
-# Shutdown the computer if it's bedtime
 def main():
     now = datetime.datetime.now()
 
-    # If it's past bedtime then shutdown
+    # If it's bedtime then shutdown
     if is_bedtime(now):
         shutdown()
 
+# Is it running the unit tests?
 if __name__ == "__main__":
     timer = sched.scheduler(time.time, time.sleep)
     timer.enter(5, 1, main)
