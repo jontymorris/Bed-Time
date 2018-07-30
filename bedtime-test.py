@@ -1,4 +1,11 @@
-import unittest, datetime, bedtime
+import unittest, datetime
+
+# debug code for import
+import os, sys
+file_dir = os.path.dirname(__file__)
+sys.path.append(file_dir)
+import bedtime
+
 
 class TestIsBedtime(unittest.TestCase):
 

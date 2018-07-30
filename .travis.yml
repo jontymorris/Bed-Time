@@ -1,8 +1,5 @@
 language: python
 python:
   - "3.6"
-before_install:
-  - ""
 script:
-  - pwd
   - python bedtime-test.py
