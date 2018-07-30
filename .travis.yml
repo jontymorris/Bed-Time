@@ -4,4 +4,5 @@ python:
 before_install:
   - ""
 script:
+  - pwd
   - python bedtime-test.py
