@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jontymorris/Bed-Time.svg?branch=master)](https://travis-ci.org/jontymorris/Bed-Time)
+
 # Bed-Time
 Shuts down your Windows when it's bedtime 
 
