@@ -2,7 +2,6 @@ language: python
 python:
   - "3.6"
 before_install:
-  - "pip install -U pip"
-  - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
+  - ""
 script:
   - python bedtime-test.py
