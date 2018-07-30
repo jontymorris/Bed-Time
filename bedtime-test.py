@@ -1,3 +1,13 @@
+# Debug code for travis
+import os
+
+print("Current directory: " + os.getcwd())
+
+for file in os.listdir(os.getcwd()):
+    print(file)
+# end of debug code
+
+
 import unittest, datetime, bedtime
 
 class TestIsBedtime(unittest.TestCase):
