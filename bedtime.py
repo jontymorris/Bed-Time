@@ -9,12 +9,12 @@ def is_bedtime(time):
     # Check for Friday or Saturday
     if time.weekday() in [4, 5]:
         # Is it past 11 pm and before 4 am
-        if time.hour >= 23 or time.hour <= 5:
+        if time.hour >= 23 or time.hour <= 4:
             return True
     
     else:
         # Is it past 9:30 pm and before 4 am
-        if time.hour > 21 or (time.hour == 21 and time.minute >= 30):
+        if time.hour > 21 or (time.hour == 21 and time.minute >= 30) or time.hour <= 4:
             return True
     
     # It is not bedtime
